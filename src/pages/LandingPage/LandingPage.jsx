@@ -7,7 +7,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 
 // React icons
-import { FaPlay } from 'react-icons/fa';
+import { FaEnvelope } from 'react-icons/fa';
 
 // core components
 import Header from "components/Header/Header.jsx";
@@ -53,9 +53,12 @@ class LandingPage extends React.Component {
                 <Button
                   color="danger"
                   size="lg"
-                  href="#"
+                  href="mailto:hello@heroesnetwork.us?Subject=Let's%20connect!"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Learn more
+                  <FaEnvelope />
+                  Get in touch
                 </Button>
               </GridItem>
             </GridContainer>
