@@ -16,7 +16,7 @@ module.exports = {
         start_url: '/',
         background_color: '#b3d4e6',
         theme_color: '#e23e24',
-        display: 'fullscreen',
+        display: 'minimal-ui',
         icon: 'src/assets/img/favicon.png', // This path is relative to the root of the site.
       },
     },
