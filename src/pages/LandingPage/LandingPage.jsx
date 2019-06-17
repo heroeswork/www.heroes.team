@@ -16,7 +16,7 @@ import Parallax from "components/Parallax/Parallax.jsx";
 
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
 
-import logo from "assets/img/LogoOutline.png"
+import logo from "assets/img/LogoComplete.png"
 import skyline from "assets/img/skyline.png"
 
 import ProductSection from "./Sections/ProductSection";
