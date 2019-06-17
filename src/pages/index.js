@@ -1,4 +1,5 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 import {createMemoryHistory} from "history";
 import {Route, Router, Switch} from "react-router-dom";
 
@@ -27,11 +28,25 @@ class App extends React.Component {
 
   render () {
     return (
-      <Router history={hist}>
-        <Switch>
-          <Route path="/" component={LandingPage} />
-        </Switch>
-      </Router>)
+      <div>
+        <Helmet
+          title="bettering our systems of care, together."
+          titleTemplate="heroes - %s"
+          defaultTitle="bettering our systems of care, together."
+          meta={[
+            {name: "description", content: "Heroes Initiative is working with agencies to solve challenges and improve family outcomes, by using the rich and varied experiences of on-the-ground experts to guide development of tools, content, and services"},
+          ]}
+          link={[
+            {rel: "canonical", href: "http://www.heroes.team"},
+          ]}
+          />
+          <Router history={hist}>
+            <Switch>
+              <Route path="/" component={LandingPage} />
+            </Switch>
+          </Router>
+      </div>
+      )
   }
 }
 export default App
