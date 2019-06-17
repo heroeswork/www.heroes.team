@@ -68,6 +68,7 @@ class LandingPage extends React.Component {
             </GridContainer>
           </div>
         </Parallax>
+        {/*
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
           <p>Add sections here</p>
@@ -101,6 +102,7 @@ class LandingPage extends React.Component {
             <p>Add sections here</p>
           </div>
         </div>
+        */}
         <Footer />
       </div>
     );
