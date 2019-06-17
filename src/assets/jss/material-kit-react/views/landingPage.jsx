@@ -1,6 +1,15 @@
 import { container, title } from "assets/jss/material-kit-react.jsx";
 
 const landingPageStyle = {
+  hero: {
+    textAlign: "center"
+  },
+  heroLogo: {
+    display: "block",
+    margin: "auto",
+    width: "60%",
+    maxHeight: "30%"
+  },
   container: {
     zIndex: "12",
     color: "#FFFFFF",
@@ -8,17 +17,14 @@ const landingPageStyle = {
   },
   title: {
     ...title,
-    display: "inline-block",
-    position: "relative",
-    marginTop: "30px",
-    minHeight: "32px",
+    display: "block",
+    margin: "auto",
+    fontSize: "3.5rem",
     color: "#FFFFFF",
     textDecoration: "none"
   },
   subtitle: {
-    fontSize: "1.313rem",
-    maxWidth: "500px",
-    margin: "10px auto 0"
+    fontSize: "1.8rem",
   },
   main: {
     background: "#FFFFFF",

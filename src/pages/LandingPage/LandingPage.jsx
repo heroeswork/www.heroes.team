@@ -20,6 +20,9 @@ import Parallax from "components/Parallax/Parallax.jsx";
 
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
 
+import logo from "assets/img/LogoOutline.png"
+import skyline from "assets/img/skyline.png"
+
 const dashboardRoutes = [];
 
 class LandingPage extends React.Component {
@@ -34,24 +37,25 @@ class LandingPage extends React.Component {
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
-            height: 400,
+            height: 300,
             color: "white"
           }}
           {...rest}
         />
-        <Parallax filter >
+        <Parallax filter image={skyline}>
           <div className={classes.container}>
-            <GridContainer>
-              <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>bettering our systems of care, together.</h1>
-                <h4>
-                  We are working with agencies to solve challenges and improve 
-                  family outcomes, by using the rich and varied experiences of on-the-ground 
-                  experts to guide development of tools, content, and services.
-                </h4>
+            <GridContainer justify="center">
+              <GridItem xs={8} sm={8} md={6}>
+                <div className="hero">
+                  <img className={classes.heroLogo} src={logo} />
+                </div>
+              </GridItem>
+              <GridItem xs={12} sm={12} md={12} className={classes.hero}>
+                <h1 className={classes.title}>heroes</h1>  
+                <h2 className={classes.subtitle}>bettering our systems of care, together.</h2>
                 <br />
                 <Button
-                  color="danger"
+                  color="info"
                   size="lg"
                   href="mailto:hello@heroesnetwork.us?Subject=Let's%20connect!"
                   target="_blank"
@@ -64,13 +68,39 @@ class LandingPage extends React.Component {
             </GridContainer>
           </div>
         </Parallax>
-        {/* 
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
-            Add sections here
+          <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
+            <p>Add sections here</p>
           </div>
         </div>
-        */}
         <Footer />
       </div>
     );
