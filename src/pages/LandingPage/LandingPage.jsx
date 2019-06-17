@@ -6,15 +6,11 @@ import withStyles from "@material-ui/core/styles/withStyles";
 
 // @material-ui/icons
 
-// React icons
-import { FaEnvelope } from 'react-icons/fa';
-
 // core components
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
-import Button from "components/CustomButtons/Button.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
@@ -22,6 +18,8 @@ import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.js
 
 import logo from "assets/img/LogoOutline.png"
 import skyline from "assets/img/skyline.png"
+
+import ProductSection from "./Sections/ProductSection";
 
 const dashboardRoutes = [];
 
@@ -53,56 +51,15 @@ class LandingPage extends React.Component {
               <GridItem xs={12} sm={12} md={12} className={classes.hero}>
                 <h1 className={classes.title}>heroes</h1>  
                 <h2 className={classes.subtitle}>bettering our systems of care, together.</h2>
-                <br />
-                <Button
-                  color="info"
-                  size="lg"
-                  href="mailto:hello@heroesnetwork.us?Subject=Let's%20connect!"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaEnvelope />
-                  Get in touch
-                </Button>
               </GridItem>
             </GridContainer>
           </div>
         </Parallax>
-        {/*
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
-          <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
-            <p>Add sections here</p>
+            <ProductSection />
           </div>
         </div>
-        */}
         <Footer />
       </div>
     );
