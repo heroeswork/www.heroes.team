@@ -11,12 +11,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Heroes - bettering our systems of care, together.',
+        short_name: 'Heroes',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
-        display: 'minimal-ui',
+        background_color: '#b3d4e6',
+        theme_color: '#e23e24',
+        display: 'fullscreen',
         icon: 'src/assets/img/favicon.png', // This path is relative to the root of the site.
       },
     },
