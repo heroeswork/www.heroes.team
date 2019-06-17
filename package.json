@@ -40,8 +40,8 @@
     "react-router-dom": "^4.3.1",
     "react-slick": "^0.23.2",
     "react-swipeable-views": "^0.13.1",
-    "typeface-roboto": "0.0.54",
-    "typeface-roboto-slab": "0.0.72"
+    "typeface-nunito": "0.0.72",
+    "typeface-open-sans": "0.0.54"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
