@@ -3,7 +3,7 @@ import React from "react";
 import withStyles from "@material-ui/core/styles/withStyles";
 
 // React icons
-import { FaEnvelope } from 'react-icons/fa';
+import { FaComments } from 'react-icons/fa';
 
 // @material-ui/icons
 import LiveTv from "@material-ui/icons/LiveTv";
@@ -37,13 +37,11 @@ class ProductSection extends React.Component {
         </GridContainer>
         <div>
         <Button
-          color="info"
+          color="primary"
           size="lg"
-          href="mailto:hello@heroesnetwork.us?Subject=Let's%20connect!"
-          target="_blank"
-          rel="noopener noreferrer"
+          onClick={() => window.$crisp.push(['do', 'chat:open'])}
         >
-          <FaEnvelope />
+          <FaComments />
           Get in touch
         </Button>
         </div>
