@@ -10,7 +10,8 @@
 // Vendors
 // - CSS from external libraries and frameworks
 @import "./vendors/googlefonts";
-@import "./vendors/bootstrap";
+//@import "./vendors/bootstrap";
+@import "./vendors/bootstrap/bootstrap";
 
 // Base
 // - standard styles for commonly elements
@@ -35,3 +36,6 @@
 // Themes
 // - for different aspects
 @import "./themes/default";
+
+
+@import "./styles";
