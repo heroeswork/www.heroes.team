@@ -69,6 +69,12 @@ $g-google:                                                      #d14130 !default
 $g-twitter:                                                     #1da1f2 !default;
 $g-instagram:                                                   #3f729b !default;
 $g-github:                                                      #24292e !default;
+$g-vermillion:                                                  #e23e24 !default;
+$g-vermillion-dark:                                             #da301b !default;
+$g-vermillion-light:                                            #e65b45 !default;
+$g-sky:                                                         #b3d4e6 !default;
+$g-citadel:                                                     #6d828d !default;
+$g-marina:                                                      #2779ff !default;
 
 // Accent Colors
 $g-accent-colors: () !default;
@@ -87,8 +93,8 @@ $g-social-network-colors: map-merge((
 ), $g-social-network-colors);
 
 // Theme Colors
-$g-primary:                                                     $g-purple !default;
-$g-secondary:                                                   $g-teal !default;
+$g-primary:                                                     $g-marina !default;
+$g-secondary:                                                   $g-sky !default;
 $g-success:                                                     $g-green !default;
 $g-info:                                                        $g-blue !default;
 $g-warning:                                                     $g-yellow !default;
@@ -126,27 +132,28 @@ $g-link-muted-hover-color:                                      theme-color("pri
 // =============================================================
 
 // Font Families
-$g-font-primary:                                                "Open Sans", sans-serif !default;
-$g-font-accent:                                                 "Playfair Display", serif !default;
+$g-font-primary:                                                "Nunito", sans-serif !default;
+$g-font-accent:                                                 "Nunito", sans-serif !default;
 
 // Font Sizes
 $g-font-size-base:                                              1rem !default;
 
 // Font Weight
-$g-font-weight-light:                                           300 !default;
-$g-font-weight-normal:                                          400 !default;
-$g-font-weight-medium:                                          500 !default;
-$g-font-weight-semi-bold:                                       600 !default;
+$g-font-weight-light:                                           200 !default;
+$g-font-weight-normal:                                          300 !default;
+$g-font-weight-medium:                                          300 !default;
+$g-font-weight-semi-bold:                                       400 !default;
 $g-font-weight-bold:                                            700 !default;
 
 $g-headings-font-weight:                                        $g-font-weight-light !default;
 $g-headings-line-height:                                        1.5 !default;
-$g-display-lin-height:                                          1.2 !default;
+$g-display-line-height:                                          1.2 !default;
 $g-paragraph-line-height:                                       1.7 !default;
 $g-outline:                                                     5px auto -webkit-focus-ring-color !default;
 $g-display-1:                                                   72px !default;
 $g-display-2:                                                   56px !default;
 $g-display-3:                                                   48px !default;
+$g-display-4:                                                   36px !default;
 $g-hr-color:                                                    $g-gray-100 !default;
 
 
