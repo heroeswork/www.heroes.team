@@ -2,13 +2,44 @@
 // Home page
 // -----------------------------------------------------------------------------
 .u-promo-block {
-  background-image: url(../../images/skyline.png);
+    background-image: url(../../images/skyline.png);
 }
 
 .u-promo-container {
-  background-image: url(../../images/cape.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  padding: 200px 40px;
+    background-image: url(../../images/cape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding:  260px 60px 200px 60px;
+    
+    h1 {
+        line-height: 90%;
+    }
+    p.mission {
+        font-size: 1.1em;
+        line-height: 1em;
+    }
+
+    @include media-breakpoint-up(sm) {
+        p.mission {
+            font-size: 1.1em;
+            line-height: 1em;
+        }
+    }
+    
+    @include media-breakpoint-up(md) {
+        p.mission {
+            font-size: 1.3em;
+            line-height: 1.2em;
+        }
+    }
+    @include media-breakpoint-up(lg) {
+        p.mission {
+            font-size: 1.4em;
+            line-height: 1.3em;
+        }
+    }
 }
+
+
+
