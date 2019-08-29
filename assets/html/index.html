@@ -20,7 +20,7 @@ ${require('./partials/browserupgrade.html')}
             <div class="text-center">
               <h1 class="display-4  display-sm-3 display-md-2 display-lg-1 u-font-accent">heroes</h1>
               <p class="mission">bettering our systems of care, together.</p>
-              <a href="#about"><button type="button" class="btn btn-primary">Welcome</button></a>
+              <a href="#about"><button type="button" class="btn btn-primary">Learn more</button></a>
               <p><span class="fa fa-angle-down"></span></p>
           </div>
         </div>
@@ -30,24 +30,11 @@ ${require('./partials/browserupgrade.html')}
     <!-- End Promo Block -->
   </header>
 
-  <main class="d-flex h-100 align-items-center">
+  <main role="main">
     <div class="container">
-      
-      <section id="about" style="max-width: 35rem">
-          <h1>How?</h2>
-          <p>
-          We are working with agencies to solve challenges and improve family outcomes, 
-          by using the rich and varied experiences of on-the-ground experts to guide 
-          development of tools, content, and services.
-          </p>
-          <p class="lead">
-          Are you a hero?
-          </p>
-          <p>
-          <button type="button" class="btn btn-primary">Get in touch</button>
-          </p>
+      <section id="about" class="about-section u-content-space-bottom">
+        ${require('./partials/about.html')}
       </section>
-
       <section id="services" class="bg-light u-content-space">
         ${require('./partials/services.html')}
       </section>
