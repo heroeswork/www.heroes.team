@@ -79,7 +79,8 @@ $g-marina:                                                      #2779ff !default
 // Accent Colors
 $g-accent-colors: () !default;
 $g-accent-colors: map-merge((
-  "white":                                                      $g-white
+  "white":                                                      $g-white,
+  "red":                                                        $g-vermillion
 ), $g-accent-colors);
 
 // Social Network Colors
@@ -410,7 +411,7 @@ $g-navbar-dark-color:                                           rgba($g-white, .
 $g-navbar-dark-hover-color:                                     $g-white !default;
 
 // Onscroll
-$navbar-bg-onscroll:                                            lighten(theme-color("primary"), 5%) !default;
+$navbar-bg-onscroll:                                            $g-vermillion !default;
 
 
 
