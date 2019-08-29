@@ -12,7 +12,7 @@ ${require('./partials/browserupgrade.html')}
   <header role="header">
     ${require('./partials/header.html')}
     <!-- Promo Block -->
-    <section class="js-parallax u-promo-block" style="background-image: url(../images/skyline.png);">
+    <section class="js-parallax u-promo-block">
       <!-- Promo Content -->
       <div class="container text-white u-ver-center u-promo-container">
         <div class="row justify-content-center">
@@ -20,7 +20,7 @@ ${require('./partials/browserupgrade.html')}
             <div class="text-center">
               <h1 class="display-4  display-sm-3 display-md-2 display-lg-1 u-font-accent">heroes</h1>
               <p class="mission">bettering our systems of care, together.</p>
-              <button type="button" class="btn btn-primary">Learn more</button>
+              <a href="#about"><button type="button" class="btn btn-primary">Welcome</button></a>
               <p><span class="fa fa-angle-down"></span></p>
           </div>
         </div>
@@ -33,9 +33,9 @@ ${require('./partials/browserupgrade.html')}
   <main class="d-flex h-100 align-items-center">
     <div class="container">
       
-      <section style="max-width: 35rem">
+      <section id="about" style="max-width: 35rem">
           <h1>How?</h2>
-          <p class="lead">
+          <p>
           We are working with agencies to solve challenges and improve family outcomes, 
           by using the rich and varied experiences of on-the-ground experts to guide 
           development of tools, content, and services.
@@ -46,6 +46,18 @@ ${require('./partials/browserupgrade.html')}
           <p>
           <button type="button" class="btn btn-primary">Get in touch</button>
           </p>
+      </section>
+
+      <section id="services" class="bg-light u-content-space">
+        ${require('./partials/services.html')}
+      </section>
+
+      <section id="team" class="bg-light u-content-space">
+        ${require('./partials/team.html')}
+      </section>
+
+      <section id="contact" class="bg-light u-content-space">
+        ${require('./partials/contact.html')}
       </section>
     </div>
   </main>
