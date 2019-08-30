@@ -45,3 +45,12 @@
     margin-top: -50px;
     padding-top: 0;
   }
+
+.u-card-col {
+    @extend .col-6, .col-md-4, .col-lg-3, .mb-2;
+    padding: 5px;
+}
+
+.u-card {
+    @extend .u-box-shadow-sm, .bg-white, .text-center, .rounded, .px-1, .py-2;
+}
