@@ -12,25 +12,20 @@
     background-size: contain;
     padding: 
         2.5*$g-content-space-y 
-        0.5*$g-content-space-y 
+        0.6*$g-content-space-y 
         2.0*$g-content-space-y 
-        0.5*$g-content-space-y;
+        0.6*$g-content-space-y;
     
     h1 {
         line-height: 90%;
     }
+
     p.mission {
+        font-weight: $g-font-weight-semi-bold;
         font-size: 1.1em;
         line-height: 1em;
     }
 
-    @include media-breakpoint-up(sm) {
-        p.mission {
-            font-size: 1.1em;
-            line-height: 1em;
-        }
-    }
-    
     @include media-breakpoint-up(md) {
         p.mission {
             font-size: 1.3em;
