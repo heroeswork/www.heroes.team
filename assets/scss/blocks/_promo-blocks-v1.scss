@@ -24,6 +24,8 @@
     min-height: 600px;
   }
 
+  /*
+  // Removed until performance requires it
   @include media-breakpoint-down(xs) {
     & {
       background: {
@@ -31,4 +33,5 @@
       }
     }
   }
+  */
 }
