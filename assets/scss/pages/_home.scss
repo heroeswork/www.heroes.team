@@ -60,10 +60,10 @@
     column-count: 2;
     column-gap: 0.5rem;
     @include media-breakpoint-up(xs) {
-      column-count: 2;
+        column-count: 2;
     }
     @include media-breakpoint-up(sm) {
-      column-count: 2;
+        column-count: 2;
     }
     @include media-breakpoint-up(md) {
     column-count: 3;
@@ -71,4 +71,4 @@
     @include media-breakpoint-up(lg) {
         column-count: 4;
     }
-  }
+}
