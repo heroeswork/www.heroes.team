@@ -37,20 +37,4 @@
       }
     });
   });
-
-  // Scroll to (Section)
-  $(function() {
-    $('a[href*=#js-scroll-to-]:not([href=#js-scroll-to-])').on('click', function() {
-      if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        if (target.length) {
-          $('html,body').animate({
-            scrollTop: target.offset().top - 10
-          }, 1000);
-          return false;
-        }
-      }
-    });
-  });
 }(jQuery));

@@ -1,7 +1,16 @@
-<div class="container">
-    <header class="text-center w-md-50 mx-auto mb-8">
+<div class="container bg-light py-5">
+    <header class="text-center w-md-50 mx-auto">
       <h2 class="h1">Get in touch</h2>
-      <p class="lead">Schedule 15 minutes with us to see how we can help your team succeed.</p>
+      <p class="lead">Schedule 30 minutes with us to see how we can help your team succeed, or chat with us now.</p>
     </header>
 
+    <div class="text-center">
+      <a class="btn btn-primary mb-4 text-light" onclick="window.$crisp.push(['do', 'chat:open']);">
+        <i class="fas fa-comment mr-1"></i> <span class="u-font-accent">Chat now</span>
+      </a>
+      <!-- Calendly inline widget begin -->
+      <div class="calendly-inline-widget" data-url="https://calendly.com/heroes-team/get-in-touch?hide_landing_page_details=1&hide_event_type_details=1" style="min-width:320px; height: 950px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+      <!-- Calendly inline widget end -->
+    </div>
 </div>
