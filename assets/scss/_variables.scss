@@ -69,6 +69,7 @@ $g-google:                                                      #d14130 !default
 $g-twitter:                                                     #1da1f2 !default;
 $g-instagram:                                                   #3f729b !default;
 $g-github:                                                      #24292e !default;
+$g-linkedin:                                                    #0072b1 !default;
 $g-vermillion:                                                  #e23e24 !default;
 $g-vermillion-dark:                                             #da301b !default;
 $g-vermillion-light:                                            #e65b45 !default;
@@ -90,7 +91,8 @@ $g-social-network-colors: map-merge((
   "google":                                                     $g-google,
   "twitter":                                                    $g-twitter,
   "instagram":                                                  $g-instagram,
-  "github":                                                     $g-github
+  "github":                                                     $g-github,
+  "linkedin":                                                   $g-linkedin
 ), $g-social-network-colors);
 
 // Theme Colors
