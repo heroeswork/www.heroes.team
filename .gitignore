@@ -119,4 +119,7 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
+# Ignore publish directory
+dist
+
 # End of https://www.gitignore.io/api/node,macos
