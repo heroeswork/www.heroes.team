@@ -1,12 +1,12 @@
 {
-  "short_name": "",
-  "name": "",
+  "short_name": "Heroes",
+  "name": "Heroes Initiative",
   "icons": [{
     "src": "icon.png",
     "type": "image/png",
     "sizes": "192x192"
   }],
   "start_url": "/?utm_source=homescreen",
-  "background_color": "#fb6340",
-  "theme_color": "#fb6340"
+  "background_color": "#e23e24",
+  "theme_color": "#e23e24"
 }
