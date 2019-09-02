@@ -150,7 +150,7 @@ $g-font-weight-bold:                                            700 !default;
 
 $g-headings-font-weight:                                        $g-font-weight-light !default;
 $g-headings-line-height:                                        1.5 !default;
-$g-display-line-height:                                          1.2 !default;
+$g-display-line-height:                                         1.2 !default;
 $g-paragraph-line-height:                                       1.7 !default;
 $g-outline:                                                     5px auto -webkit-focus-ring-color !default;
 $g-display-1:                                                   72px !default;
@@ -164,7 +164,8 @@ $g-hr-color:                                                    $g-gray-100 !def
 // Content Spacing
 // =============================================================
 
-$g-content-space-y:                                              3.25rem !default
+
+$g-content-space-y:                                              3.25rem !default;
 
 $g-spacer: 1rem !default;
 $g-spacers: () !default;
@@ -186,8 +187,8 @@ $g-spacers: map-merge((
 // Box Shadow
 // =============================================================
 
-$g-box-shadow-sm:                                                0 .20rem 1.25rem 0 rgba($g-dark, 0.07) !default
-$g-box-shadow-lg:                                                0 .4rem 2.2rem 0 rgba($g-dark, 0.1) !default
+$g-box-shadow-sm:                                                0 .20rem 1.25rem 0 rgba($g-dark, 0.07) !default;
+$g-box-shadow-lg:                                                0 .4rem 2.2rem 0 rgba($g-dark, 0.1) !default;
 
 
 
