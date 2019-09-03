@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
+const RemoveServiceWorkerPlugin = require('webpack-remove-serviceworker-plugin');
 
 module.exports = {
   entry: './assets/index.js',
@@ -150,5 +151,8 @@ module.exports = {
     new CopyPlugin([
       { from: './assets/CNAME' },
     ]),
+    new RemoveServiceWorkerPlugin(
+      { filename: 'sw.js' }
+    ),
   ]
 };

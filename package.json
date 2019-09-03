@@ -34,7 +34,8 @@
     "jquery": "^3.4.0",
     "jquery-parallax": "^1.0.1",
     "popper.js": "^1.15.0",
-    "smoothscroll": "^0.4.0"
+    "smoothscroll": "^0.4.0",
+    "webpack-remove-serviceworker-plugin": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
