@@ -21,14 +21,15 @@
   // Bootstrap Fixed Header
   $(function() {
     // Check to see if there is a bakcground class on loading
-    if ($('.js-navbar-scroll').offset().top > 300) {
+    var offset = $('.js-navbar-scroll').offset();
+    if (offset && offset.top > 300) {
       $('.js-navbar-scroll').addClass('navbar-bg-onscroll');
     }
 
     // Check to add a background class on scrolling
     $(window).on('scroll', function() {
-      var navbarOffset = $('.js-navbar-scroll').offset().top > 300;
-      if(navbarOffset) {
+      var navbarOffset = $('.js-navbar-scroll').offset();
+      if(navbarOffset && navbarOffset.top > 300) {
         $('.js-navbar-scroll').addClass('navbar-bg-onscroll');
       }
       else {
