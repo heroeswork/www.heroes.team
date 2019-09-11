@@ -136,7 +136,7 @@ module.exports = {
     port: 9000
   },
   plugins: [
-    new SitemapPlugin('https://mysite.com', [
+    new SitemapPlugin('https://www.heroes.team', [
       {path: '/', priority: 1.0},
       {path: '/privacy/', priority: 0.2},
       {path: '/terms/', priority: 0.2}
