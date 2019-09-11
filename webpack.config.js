@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const RemoveServiceWorkerPlugin = require('webpack-remove-serviceworker-plugin');
+const SitemapPlugin = require('sitemap-webpack-plugin').default;
 
 module.exports = {
   entry: './assets/index.js',
@@ -135,6 +136,11 @@ module.exports = {
     port: 9000
   },
   plugins: [
+    new SitemapPlugin('https://mysite.com', [
+      {path: '/', priority: 1.0},
+      {path: '/privacy/', priority: 0.2},
+      {path: '/terms/', priority: 0.2}
+    ]),
     new HtmlWebpackPlugin({
       template: './assets/html/index.html',
       filename: 'index.html',
