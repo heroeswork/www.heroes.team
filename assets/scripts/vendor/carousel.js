@@ -8,9 +8,9 @@ import 'slick-slider'
   'use strict';
 
   $(document).ready(function(){
-    $('.clients-carousel').slick({
+    $('.carousel-centered').slick({
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 3000,
       speed: 500,
       slidesToShow: 5,
       infinite: true,
