@@ -1,16 +1,20 @@
 <div class="container rounded bg-light py-5 px-2">
     <header class="text-center w-md-50 mx-auto">
       <h2 class="h1">Get in touch</h2>
-      <p class="lead">Schedule 30 minutes with us to see how we can help your team succeed, or chat with us now.</p>
+      <p class="lead">Schedule a 30 minute call with us to see how we can help your team succeed.</p>
     </header>
 
     <div class="text-center">
+      <a class="btn btn-primary mb-4 text-light" href="mailto:hello@heroes.team" target="_blank">
+        <i class="fas fa-envelope mr-1"></i> <span class="u-font-accent">Email us</span>
+      </a>
       <a class="btn btn-primary mb-4 text-light" onclick="window.$crisp.push(['do', 'chat:open']);">
         <i class="fas fa-comment mr-1"></i> <span class="u-font-accent">Chat now</span>
       </a>
-      <!-- Calendly inline widget begin -->
-      <div class="calendly-inline-widget" data-url="https://calendly.com/heroes-team/get-in-touch?hide_landing_page_details=1&hide_event_type_details=1" style="border: 0; min-width:320px; height: 940px;"></div>
-      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-      <!-- Calendly inline widget end -->
+    </div>
+
+    <div class="text-center">
+      <script type="text/javascript" src="https://x.ai/embed/xdotai-embed.js" id="xdotaiEmbed" 
+          data-page="/heroes-team/call" data-height data-width data-element async></script>
     </div>
 </div>
