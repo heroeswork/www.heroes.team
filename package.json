@@ -31,7 +31,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.8.1",
     "@fortawesome/free-solid-svg-icons": "^5.8.1",
     "bootstrap": "^4.3.1",
-    "jquery": "^3.4.0",
+    "jquery": "^3.5.0",
     "jquery-parallax": "^1.0.1",
     "popper.js": "^1.15.0",
     "slick-slider": "^1.8.2",
