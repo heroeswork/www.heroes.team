@@ -17,6 +17,7 @@ import 'slick-slider'
       arrows: false,
       centerMode: true,
       centerPadding: '80px',
+      focusOnSelect: true,
       responsive: [
         {
           breakpoint: 1200,
